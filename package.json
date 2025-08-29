@@ -1,0 +1,33 @@
+{
+  "name": "css-tag-master-pro",
+  "displayName": "CSS Tag Master Pro",
+  "description": "Extracción profesional de CSS manteniendo el orden natural de aparición - Soporte para HTML, CSS, SCSS y LESS",
+  "version": "2.1.0",
+  "author": "Tu Nombre",
+  // ... (otros campos igual)
+  "contributes": {
+    "commands": [
+      {
+        "command": "cssTagMaster.extractAll",
+        "title": "CSS Tag Master: Extraer todo el CSS (orden original)",
+        "category": "CSS Tag Master"
+      },
+      {
+        "command": "cssTagMaster.extractSelected",
+        "title": "CSS Tag Master: Extraer selección CSS (orden original)",
+        "category": "CSS Tag Master"
+      },
+      {
+        "command": "cssTagMaster.removeDuplicates",
+        "title": "CSS Tag Master: Eliminar duplicados (mantiene último valor)",
+        "category": "CSS Tag Master"
+      },
+      {
+        "command": "cssTagMaster.organizeByCategory",
+        "title": "CSS Tag Master: Organizar por categorías lógicas (Premium)",
+        "category": "CSS Tag Master"
+      }
+    ],
+    // ... (resto igual)
+  }
+}
