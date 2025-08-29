@@ -1,4 +1,6 @@
 # Extensi-n-CSS-Tag-Master-Evitador-de-Clicks
+Preserva el orden natural
+
 Extensión VS Code para extraer etiquetas CSS
 <p align="center">
   <img src="images/logo.png" width="200" alt="CSS Tag Master Pro">
